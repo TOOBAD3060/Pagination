@@ -46,7 +46,7 @@ const MyHome = () => {
               text-center rounded-md cursor-pointer' key={prod.id}>
                 {prod.title}
                 <Image className='w-full h-[95%] object-cover mb-1' src={prod.thumbnail} alt={prod.title}
-                width={1000} height={100} />
+                width={1000} height={400} />
               </span>
             ))
           }
