@@ -42,7 +42,7 @@ const MyHome = () => {
         products.length > 0 && <div  className='m-20 grid gap-5 grid-cols-3 '>
           {
             products.slice(page * 10 - 10, page * 10).map((prod) => (
-              <span className='h-[150px] p-5 bg-gray-300 
+              <span className='h-[250px] p-5 bg-gray-300 
               text-center rounded-md cursor-pointer' key={prod.id}>
                 {prod.title}
                 <Image className='w-full h-[95%] object-cover mb-1' src={prod.thumbnail} alt={prod.title}
